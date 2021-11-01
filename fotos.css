@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-image: url('/Users/ramzi/Desktop/cv-main/images/portfolios/fix.jpeg');
+}
+
+section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+
+}
+
+section .screen {
+  position: relative;
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+  transition: 1s;
+}
+
+section:hover .screen {
+  opacity: 0.1;
+}
+
+section .screen:hover {
+  flex-grow: 20;
+  opacity: 1;
+}
+
+section .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Daf.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/Texecom.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Milestone.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section .screen:nth-child(4) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/axxon next.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+section .screen .content {
+  position: absolute;
+  margin-top: 200px;
+  width: 45%;
+  height: auto;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: 0.5s;
+  text-align: justify;
+}
+
+section .screen:hover .content {
+  transform: translateX(0);
+  transition-delay: 1s;
+}
+
+section .screen .content h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ed363a;
+}
+
+.section .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Brand.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/Inim.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Aritech.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Brand.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/Inim.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Aritech.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Vanderbilt.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/Vanderbilt2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section2 .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/privaat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Berlin.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/axxon.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section3 .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/politie.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section4 .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/room.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section4 .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/Flir2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section4 .screen:nth-child(3) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/FLIR.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section5 .screen:nth-child(1) {
+  background: url("/Users/ramzi/Desktop/cv-main/images/work/Konstanz.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.section5 .screen:nth-child(2) {
+  background: url('/Users/ramzi/Desktop/cv-main/images/work/kaufland.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  z-index: 999;
+}
+
+.video1 {
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+
+.video2 {
+  width: 50%;
+  height: 100%;
+  margin-left: 50%;
+  display: block;
+  position: inherit;
+}
+
+.btn_folio {
+  margin: 2em auto;
+  background-color:#1B8D22;
+  text-align: center;
+
+
+}
+.btn-primary:hover {
+  background-color:#C68B59;
+  width: 50%;
+}
+.btn-primary:active {
+background-color: red;
+.d-grid {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.bitte {
+  text-align:
+
+}
