@@ -36,7 +36,7 @@ section .screen:hover {
 }
 
 section .screen:nth-child(1) {
-  background: url("/Users/ramzi/Desktop/cv-main/images/work/Daf.jpg");
+  background: url("work/Daf.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
