@@ -167,7 +167,7 @@ section .screen .content h2 {
 }
 
 .section3 .screen:nth-child(3) {
-  background: url("work/Politie.jpg");
+  background: url('work/Politie.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
