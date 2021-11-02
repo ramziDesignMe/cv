@@ -36,14 +36,14 @@ section .screen:hover {
 }
 
 section .screen:nth-child(1) {
-  background: url("work/Daf.jpg");
+  background: url("work/Texecom.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 section .screen:nth-child(2) {
-  background: url('work/Texecom.jpg');
+  background: url('work/Daf.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
